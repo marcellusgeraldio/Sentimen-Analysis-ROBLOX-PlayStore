@@ -1,15 +1,15 @@
-# 🎮 Sentiment Analysis – Roblox Google Play Store Reviews
+# Sentiment Analysis – Roblox Google Play Store Reviews
 
 Proyek analisis sentimen ulasan aplikasi Roblox di Google Play Store menggunakan deep learning.
 
-## 📋 Deskripsi
+##  Deskripsi
 
 Model ini mengklasifikasikan ulasan pengguna ke dalam tiga kelas sentimen:
 - 😊 **Positif** — ulasan dengan rating 4–5
 - 😐 **Netral** — ulasan dengan rating 3
 - 😡 **Negatif** — ulasan dengan rating 1–2
 
-## 🗂️ Struktur Proyek
+##  Struktur Proyek
 
 ```
 sentiment-roblox/
@@ -22,7 +22,7 @@ sentiment-roblox/
 └── kamuskatabaku.xlsx            # Kamus normalisasi slang
 ```
 
-## 🧠 Model & Skema Pelatihan
+##  Model & Skema Pelatihan
 
 | Model | Ekstraksi Fitur | Split | Train Acc | Test Acc |
 |-------|----------------|-------|-----------|----------|
@@ -39,7 +39,7 @@ sentiment-roblox/
 - **ML/DL**: TensorFlow/Keras, Scikit-learn
 - **Deployment**: Streamlit
 
-## 🚀 Cara Menjalankan Lokal
+##  Cara Menjalankan Lokal
 
 ```bash
 git clone https://github.com/username/sentiment-roblox.git
